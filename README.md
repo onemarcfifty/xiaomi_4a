@@ -1,23 +1,7 @@
-00:00 Intro TLDR TLDW
-00:39 The XIAOMI Mi Router 4A Gigabit Edition
-01:57 first installation stock firmware
-03:10 The web GUI
-03:30 getting shell access
-04:30 switch performance
-05:30 routing performance
-06:18 Wi-Fi performance
-07:29 Observations
-09:40 Is the device phoning home ?
-10:22 how does the app access the router?
-12:33 Data Protection?
-13:29 more remarks
-14:14 call to action
-15:05 backup the firmware
-17:10 let's flash OpenWrt
-19:14 switch performance with OpenWrt
-19:46 routing performance with OpenWrt
-20:34 Wi-Fi performance with OpenWrt
-21:24 Summary and Conclusion
+This is the description of my video about the XIAOMI Mi Router 4A gigabit edition
+
+you can find the video [here on youtube](https://www.youtube.com/watch?v=a4fDwG3aEb8).
+
 
 download location for OpenWrtInvasion:
 
