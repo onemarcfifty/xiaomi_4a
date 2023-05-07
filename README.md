@@ -174,8 +174,7 @@ for i in {0..9} ; do netcat -l 10000 > "mtdblock${i}" ; done
 on the sender (the router)
 
 ``` bash
-for i in 0 1 2 3 4 5 6 7 8 9 0 ; do cat "/dev/mtdblock${i}" \ 
-  | nc (IP_OF_THE_RECEIVER) 10000 ; sleep 1 ; done
+for i in 0 1 2 3 4 5 6 7 8 9 0 ; do cat "/dev/mtdblock${i}" | nc (IP_OF_THE_RECEIVER) 10000 ; sleep 1 ; done
 ```
 
 The receiver needs to be ready before we send, therefore the sleep 1.
