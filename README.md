@@ -168,7 +168,7 @@ If we want to transfer all 10 mtdblock devices we can do
 on the receiver (your workstation):
 
 ``` bash
-for i in {0..9} ; do netcat -l 10000 > "mtdblock${i}" ; done
+for i in {0..9} ; do nc -l 10000 > "mtdblock${i}" ; done
 ```
 
 on the sender (the router)
@@ -199,8 +199,9 @@ mtd -e OS1 -r write openwrt.bin OS1
 
 grab a coffee, wait, reboot router
 
-``` bash
 ssh into the router with OpenWrt
+
+``` bash
 ssh root@192.168.1.1
 ```
 
