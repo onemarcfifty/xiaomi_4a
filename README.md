@@ -9,16 +9,20 @@ https://github.com/acecilia/OpenWRTInvasion
 
 running it as a docker container:
 
+``` bash 
 docker build -t openwrtinvasion https://github.com/acecilia/OpenWRTInvasion.git
 docker run --network host -it openwrtinvasion
+```
 
 It will ask for the IP address (by default this is 192.168.31.1)
 in the video, I had set this to an address in my LAN (192.168.139....)
 The stok can be copied from the Web interface URL
 
+```
 telnet 192.168.31.1
 user:root
 pwd: root
+```
 
 Hoddys Guide links:
 the video is here https://www.youtube.com/watch?v=VxzEvdDWU_s
